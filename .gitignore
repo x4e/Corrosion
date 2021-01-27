@@ -1,0 +1,6 @@
+.idea/
+target/
+thirdparty/logs/
+Cargo.lock
+*.a
+runmc.sh

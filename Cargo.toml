@@ -1,0 +1,18 @@
+[package]
+name = "Corrosion"
+version = "0.1.0"
+authors = ["mastercooker <c.o.okiedragon234@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "corrosion_client"
+path = "src/client/client.rs"
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "corrosion_loader"
+path = "src/injector/loader.rs"
+
+[dependencies]
+sysinfo = "0.15.1"
+ctor = "0.1.15"
